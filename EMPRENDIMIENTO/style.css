@@ -1,0 +1,178 @@
+body
+{
+    background: #e3d9f2;
+    font-family: arial;
+    font-size: 16 px;
+}
+
+header 
+{
+    
+    background-color: #3d8fce;
+    color:white;
+    padding: 0.5em;
+    overflow: hidden;
+}
+
+header figure 
+   {
+    float:left;
+       position:relative;
+       margin:  0.5em
+       
+   }
+header #logo img
+
+   {
+    width: 200px; 
+    border-right: 2px solid white;
+    margin-right: 0.5em;
+    padding-right: 0.5em;
+   }
+
+header #oso img
+    {
+     width:200px;  
+    }
+header #oso
+   {
+    padding: : 0.5em 0.5em 0 0;
+    position: absolute;
+    right: 0;
+    top:0;
+
+   }
+
+
+header p
+   {
+    font-size:1.2em;
+    font-weight: normal;
+    margin: 2em 70px 0 0;
+   }
+
+nav
+    {
+       
+        background: rgba(59, 76, 90, 0.44);
+       padding: 0 0.em;
+       position: relative;
+        box-shadow: rgba 
+        
+    }
+
+nav ul
+    {
+        list-style:none;
+        
+        margin: 0 ;
+        padding:0;
+        margin: 0 80px 0 0 ;
+        }
+
+nav ul #suscribete_nav
+    {
+       position: absolute;
+        right: 0;
+        top:-0.2em;
+        margin: 
+    }
+
+nav ul #suscribete_nav a
+    {
+        background: rgb(162, 169, 198);
+        padding: 0.8em 0.5em;
+        text-decoration:none;
+        font-style:italic;
+        border-radius: 5px;
+        box-shadow: rgba(0,0,0,0.5) -5px 5px 18px;
+        text-shadow: rgba(0,0,0,0.5)-2px 5px 15px;
+    }
+nav ul li
+    {
+        display: inline-block;
+        margin: 0 1em 0 0;
+    }
+
+nav ul li a
+    {
+         color:#fff;
+         text-decoration: none;
+         padding:0.5em 0;
+         display: block;
+    }
+
+#contenido 
+    
+    {
+     margin: 10em;
+    }
+
+#contenido .item
+
+   {
+    background:rgb(225, 230, 248);
+    border-bottom: 3px solid;
+    margin-bottom: 3em;
+    min-height:128px;
+    position: relative;
+   }
+
+#contenido .item .item_imagen img
+{
+    width: 50;
+       
+}
+#contenido .item .item_imagen
+{
+    float: left;
+    margin:  0.5em 0.1 0;
+}
+#contenido .item .item_titulo
+{
+    font:1.2em;
+    font-style:italic;
+    padding: 1em 1em 0 0;
+}
+#contenido .item .item_titulo a
+{
+    color:#3f3d4a;
+    text-decoration:none;
+}
+#contenido .item .item_item_informacion
+{
+     
+    color: #82adce;
+    
+}
+    #contenido .item .item_datos
+{
+margin: 1em 1em 0 0;
+text-align:right;
+}
+#contenido .item .item_datos .item_tag
+{
+    background:#202020;
+    border-radius: 0.3em;
+        color:#e2dddd;
+    float: left;
+    padding: 0.2em 0.5em;
+        text-decoration: none;
+    display:inline-block;
+}
+
+footer
+{
+        background: #63bcc8;
+        color:rgba (255,255,255,0.7);
+         text-align:center;
+        padding:1em;
+    }
+
+
+
+
+
+
+
+
